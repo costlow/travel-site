@@ -19,6 +19,9 @@ gulp.task('watch', function() {
     gulp.start('cssInject');
   });
 
+  watch(['./app/assets/images/icons/**/*.svg', './gulp/templates/sprite.css'], function() {
+    gulp.start('icons');
+  });
 });
 
 gulp.task('cssInject', ['styles'], function() {
