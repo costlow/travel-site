@@ -4,7 +4,7 @@
   @mixin atMedium {
     padding: 4.5rem 0;
   }
-  
+
   &--blue {
     background-color: $mainBlue;
     color: #FFF;
@@ -23,7 +23,7 @@
     padding-bottom: 0;
 
     @mixin atMedium {
-      padding-bottom: 1.2rem;
+      padding-bottom: 4.5rem;
     }
   }
 
@@ -31,7 +31,7 @@
     padding-bottom: 0;
 
     @mixin atLarge {
-      padding-bottom: 1.2rem;
+      padding-bottom: 4.5rem;
     }
   }
 }
