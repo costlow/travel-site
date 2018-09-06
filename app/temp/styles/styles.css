@@ -1221,3 +1221,15 @@ a {
       float: right
   }
   }
+
+.reveal-item {
+  opacity: 0;
+  transition: all 1s ease-out;
+  position: relative;
+  top: 30px;
+}
+
+.reveal-item--is-visible {
+    opacity: 1;
+    top: 0;
+  }
